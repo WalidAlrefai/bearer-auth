@@ -1,0 +1,16 @@
+{
+    "test": {
+        "username": "walid",
+        "password": "password",
+        "database": "classauth",
+        "host": "127.0.0.1",
+        "dialect": "sqlite:memory:"
+    },
+    "production": {
+        "username": "walid",
+        "password": "password",
+        "database": "classauth",
+        "host": "127.0.0.1",
+        "dialect": "postgres"
+    }
+}
