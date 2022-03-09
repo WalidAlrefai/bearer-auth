@@ -1,7 +1,7 @@
 'use strict';
 const { Users } = require('../models/index');
 const jwt = require('jsonwebtoken')
-const SECRET = process.env.SECRET;
+const SECRET = process.env.SECRET || "walid";
 
 module.exports = async (req, res, next) => {
     if (req.headers['authorization']) {
