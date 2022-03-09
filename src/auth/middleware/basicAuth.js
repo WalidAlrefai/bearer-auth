@@ -2,7 +2,7 @@ const bcrypt = require('bcrypt');
 const base64 = require('base-64');
 const {Users}=require('../models/index');
 const jwt = require('jsonwebtoken')
-const SECRET = process.env.SECRET;
+const SECRET = process.env.SECRET || "walid";
 
 async function basicAuth(req,res,next){
     try {
